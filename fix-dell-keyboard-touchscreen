@@ -1,4 +1,5 @@
-#On multiple dell laptops with Ubuntu 18.04, 18.10, 19.04, 19.10, and even 20.04 the laptop wakes up after closing the lid in tablel mode. To fix this I changed the lid close actions to "locked"
+#On multiple dell laptops with Ubuntu 18.04, 18.10, 19.04, 19.10, and even 20.04 the laptop wakes up after closing the lid 
+#into tablet mode, without the keyboard or touchpad active. To fix this I changed the lid close actions to "locked"
 
 #Open logind.conf file
 sudo nano /etc/systemd/logind.conf
