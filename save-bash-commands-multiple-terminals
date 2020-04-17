@@ -1,0 +1,11 @@
+#So with I open multiple bash terminals up, the bash history is not saved between them. This can easily be fixed by changing
+#the SSH Options to append history.
+
+#Use the following command to set the histappend option
+shopt -s histappend
+
+#To view your settings just run:
+shopt
+
+#To unset (turn it off) run:
+shopt -u histappend
